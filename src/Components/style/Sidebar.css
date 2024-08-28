@@ -1,0 +1,46 @@
+aside{
+    position: fixed;
+    right: 0px;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+}
+aside .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding:  0px;
+}
+aside .container .img-container{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+aside .container .img-container img{
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+} 
+aside .container ul{
+    width: 100%;
+    padding: 15px 0px;
+} 
+aside .container ul li{
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 27px;
+    transition: 0.5s;
+    color: #222;
+}
+aside .container ul li:hover{
+    background-color: #fff;
+    color: rgb(9, 96, 226);
+}

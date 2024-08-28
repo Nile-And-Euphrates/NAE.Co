@@ -1,0 +1,15 @@
+
+.content{
+    position: relative;
+    right: 10%;
+    width: 77%;
+    height:fit-content;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}

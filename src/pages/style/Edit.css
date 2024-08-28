@@ -1,0 +1,42 @@
+form{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    gap: 10px;
+    padding: 20px;
+}
+form span{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form span label{
+    width: 200px;
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+form span input{
+    width: 600px;
+    height: 30px;
+    border: none;
+    padding:0px 10px;
+}
+form span input:focus{
+    border: none;
+}
+form button{
+    width: 150px;
+    height: 37px;
+    background-color: rgb(50, 120, 250);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+}
