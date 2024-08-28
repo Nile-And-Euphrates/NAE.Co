@@ -55,7 +55,7 @@ export default function Home(){
     </div> */}
     
     <section className="container-xl  position-relative mt-5">
-        <video src={require("../figure/video.mp4")} controls width={"100%"} height={'650px'}></video>
+        <video loop src={require("../figure/video.mp4")} controls width={"100%"} height={'650px'}></video>
     </section>
 
 
@@ -105,7 +105,7 @@ export default function Home(){
                 <div class="container-fluid d-flex  justify-content-center " style={{height: "fit-content", flexWrap: "wrap", gap: "20px 20px"}}>
 
                 <article class="item position-relative d-flex align-items-center justify-content-center " style={{flexDirection: "column", gap:"0px 20px", width:"400px", height: "95vh"}}>
-                        <figure class="position-absolute w-100  h-100" style={{top: "0", left: "0;" }}>
+                        <figure class="position-absolute w-100  h-100" style={{top: "0px", left: "-17px" }}>
                             <img class="m position-relative w-100 h-100" style={{objectFit: "cover"}} src={require("../figure/photo_2024-08-25_19-07-23.jpg")} alt=""></img>
                         </figure>
                         <a  class="text-decoration-none position-relative bg-light d-flex justify-content-start" style={{width: "200px" , height: "40px", color: "#222" ,top: "0%" ,borderRadius: "8px" , flexDirection: "column", overflow: "hidden" , zIndex:'10'}}>
@@ -121,7 +121,7 @@ export default function Home(){
                     </article>
 
                     <article class="item position-relative d-flex align-items-center justify-content-center " style={{flexDirection: "column", gap:"0px 20px", width:"400px", height: "95vh"}}>
-                        <figure class="position-absolute w-100  h-100" style={{top: "0", left: "0;" }}>
+                        <figure class="position-absolute w-100  h-100" style={{top: "0", left: "-17px" }}>
                             <img class="m position-relative w-100 h-100" style={{objectFit: "cover"}} src={require("../figure/photo_2024-08-25_15-36-21.jpg")} alt=""></img>
                         </figure>
                         <a  class="text-decoration-none position-relative bg-light d-flex justify-content-start" style={{width: "200px" , height: "40px", color: "#222" ,top: "0%" ,borderRadius: "8px" , flexDirection: "column", overflow: "hidden" , zIndex:'10'}}>
@@ -137,7 +137,7 @@ export default function Home(){
                     </article>
 
                     <article class="item position-relative d-flex align-items-center justify-content-center " style={{flexDirection: "column", gap:"0px 20px", width:"400px", height: "95vh"}}>
-                        <figure class="position-absolute w-100  h-100" style={{top: "0", left: "50%;" }}>
+                        <figure class="position-absolute w-100  h-100" style={{top: "0", left: "-17px" }}>
                             <img class="m position-relative w-100 h-100" style={{objectFit: "cover"}} src={require("../figure/photo_2024-08-25_15-36-37.jpg")} alt=""></img>
                         </figure>
                         <a  class="text-decoration-none position-relative bg-light d-flex justify-content-start" style={{width: "200px" , height: "40px", color: "#222" ,top: "0%" ,borderRadius: "8px" , flexDirection: "column", overflow: "hidden", zIndex:'10'}}>
@@ -174,7 +174,7 @@ export default function Home(){
                     <img class="parallaxImg w-100 h-100"  src={require("../figure/photo_2024-08-25_15-42-43.jpg")} alt=""></img>
                 </article>
     
-                <article class="d-flex  justify-content-start  align-items-center p-2 bg-light" style={{width: "450px"}}>
+                <article class="d-flex  justify-content-start  align-items-center p-2 bg-light" style={{width: "450px",}}>
                     <img class="parallaxImg w-100 h-100"  src={require("../figure/photo_2024-08-25_15-42-48.jpg")} alt=""></img>
                 </article>
     
@@ -194,7 +194,7 @@ export default function Home(){
                         <div class="w-40 h-100">
                             <img src={require("../figure/photo_2024-08-25_19-07-23.jpg")} class="rounded w-80 h-100" alt="..."></img>
                         </div>
-                        <div class="caption w-50 text-light mb-4">
+                        <div class="caption w-50 text-light mt-4 mb-4">
                         <h1 class="card-title">أرضيات وجدران السيراميك </h1>
                             <p class="card-text fs-6">الوصف: السيراميك هو الخيار الأمثل لأرضيات وجدران الحمام، حيث يجمع بين الجمال والمتانة. يُصنع من مواد مقاومة للماء والبقع،</p>
                             <p class="card-text fs-6">مما يجعله مثاليًا للبيئات الرطبة. تتنوع التصميمات بين الكلاسيكية والعصرية، مما يتيح لك إنشاء مظهر حمام فريد يناسب ذوقك.</p>
@@ -205,7 +205,7 @@ export default function Home(){
                         <div class="w-40 h-100">
                             <img src={require("../figure/k2.JPG")} class="rounded w-80 h-100 " alt="..."></img>
                         </div>
-                        <div class="caption w-50 text-light mt-4">
+                        <div class="caption w-50 text-light mt-4 mb-4">
                             <h1 class="card-title">البانيو</h1>
                             <p class="card-text fs-6">يوفر البانيو تجربة استحمام فاخرة بفضل تصميمه الذي يجمع بين الراحة والأناقة. تتوفر البانيوهات بأشكال متعددة مثل القائم بذاته أو المدمج،</p>
                             <p class="card-text fs-6">مما يسمح بدمجه بسلاسة في أي تصميم حمام. يُصنع من مواد عالية الجودة مثل الأكريليك أو الفايبرجلاس، التي تتميز بالمتانة والقدرة على الاحتفاظ بالحرارة لفترة أطول.</p>
@@ -216,7 +216,7 @@ export default function Home(){
                         <div class="w-40 h-100">
                             <img src={require("../figure/k1.JPG")} class="rounded w-80 h-100" alt="..."></img>
                         </div>
-                        <div class="caption w-50 text-light mt-4">
+                        <div class="caption w-50 text-light  mt-4 mb-4">
                             <h1 class="card-title">لخلاطات والصمامات </h1>
                             <p class="card-text fs-6">عتبر الخلاطات والصمامات جوهر التحكم في تدفق المياه ودرجة حرارتها. تأتي بتصميمات أنيقة من الكروم أو الفولاذ المقاوم للصدأ، وتُصنع بجودة عالية تضمن أداءً سلسًا ودائمًا. </p>
                             <p class="card-text fs-6"> يوفر الخلاطات استهلاكًا فعالًا للمياه مع مظهر جمالي يعزز من ديكور الحمام.</p>
@@ -227,7 +227,7 @@ export default function Home(){
                         <div class="w-40 h-100">
                             <img src={require("../figure/k (1).jpg")} class="rounded w-80 h-100" alt="..."></img>
                         </div>
-                        <div class="caption w-50 text-light mt-4">
+                        <div class="caption w-50 text-light  mt-4 mb-4">
                             <h1 class="card-title"> الأحواض المدمجة</h1>
                             <p class="card-text fs-6">الوصف: الأحواض المدمجة تجمع بين الراحة والجمال، حيث توفر مساحة تخزين إضافية مع الحفاظ على تصميم أنيق. تُصنع من مواد مثل الخشب المعالج والسيراميك</p>
                             <p class="card-text fs-6">مما يضمن متانة وسهولة في التنظيف. تصاميمها المتنوعة تتناسب مع مختلف أنماط الحمامات، من الكلاسيكية إلى الحديثة.</p>

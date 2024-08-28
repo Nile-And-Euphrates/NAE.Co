@@ -402,7 +402,7 @@ section .figure::before{
     }
     .grid-4  article{
         width: 100% !important;
-        height: 350px !important;
+        height: 270px !important;
     }
     .grid-6 article .step{
         font-size: 16px !important;
