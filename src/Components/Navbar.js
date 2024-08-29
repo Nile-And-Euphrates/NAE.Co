@@ -20,7 +20,7 @@ export default function Navbar(){
         <div class="offcanvas-body">
             <ul class="navbar-nav  flex-grow-1 pe-3 w-100 justify-content-end">
             <li class="nav-item">
-                <Link to={"/"}  style={{ textDecoration: 'none' }}>
+                <Link to={"/NAE.Co/"}  style={{ textDecoration: 'none' }}>
                     <a class="nav-link active fs-4" aria-current="page" href="#">الصفحة الرئيسية</a>
                 </Link>
             </li>

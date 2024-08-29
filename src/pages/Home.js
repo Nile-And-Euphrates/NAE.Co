@@ -55,7 +55,7 @@ export default function Home(){
     </div> */}
     
     <section className="container-xl  position-relative mt-5">
-        <video loop src={require("../figure/video.mp4")} controls width={"100%"} height={'650px'}></video>
+        <video autoPlay  src={require("../figure/video.mp4")} controls width={"100%"} height={'650px'}></video>
     </section>
 
 
@@ -132,7 +132,7 @@ export default function Home(){
                                     <i class="fa-solid fa-chevron-right"></i>
                                 </span>
                             </div>
-                            <p class="p-2 bg-success-subtle ">مواد ذات جودة عالية بسعر مناسب</p>
+                            <p class="p-2 bg-success-subtle ">انواع و تصميمات مختلفة تتناسب مع التنوع </p>
                         </a>
                     </article>
 
@@ -188,7 +188,7 @@ export default function Home(){
                 </div>
             </section>
 
-            <section class="items w-100 p-1" style={{height: "fit-content", backgroundColor: "#222" }}>
+            <section class="items w-100 p-1 d-flex justify-content-center align-items-center" style={{height: "350vh", backgroundColor: "#222"  ,flexDirection:"column"}}>
 
                     <div class="item d-flex justify-content-evenly align-items-center p-5" style={{width: "100%" , height:"450px"}}> 
                         <div class="w-40 h-100">

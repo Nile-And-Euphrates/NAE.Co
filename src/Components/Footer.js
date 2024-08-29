@@ -17,7 +17,7 @@ export default function Footer(){
             </figure>
             <div className="column C">
                 <h1>الروابط</h1>
-                <Link to={'/'} style={{textDecoration:"none"}}>
+                <Link to={'/NAE.Co/'} style={{textDecoration:"none"}}>
                     <p > الصفحة الرئيسية</p>
                 </Link>
                 <Link to={'/works'} style={{textDecoration:"none"}}>
