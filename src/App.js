@@ -14,7 +14,7 @@ function App() {
     return (
     <Router>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="NAE.Co/" element={<Home />} />
             <Route path="/works" element={<Works/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact/>} />
