@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NAE.Co/static/css/main.b0c84f4e.css",
-    "main.js": "/NAE.Co/static/js/main.2cf16726.js",
+    "main.js": "/NAE.Co/static/js/main.3f4cb42d.js",
     "static/media/video.mp4": "/NAE.Co/static/media/video.198d7e1e98dcf96234d3.mp4",
     "static/media/k2.JPG": "/NAE.Co/static/media/k2.bee4a935365f7bc7c3ed.JPG",
     "static/media/k1.JPG": "/NAE.Co/static/media/k1.87d659c0bd80707d33ba.JPG",
@@ -32,10 +32,10 @@
     "static/media/download.jfif": "/NAE.Co/static/media/download.2db2b2aeb11d80062b14.jfif",
     "index.html": "/NAE.Co/index.html",
     "main.b0c84f4e.css.map": "/NAE.Co/static/css/main.b0c84f4e.css.map",
-    "main.2cf16726.js.map": "/NAE.Co/static/js/main.2cf16726.js.map"
+    "main.3f4cb42d.js.map": "/NAE.Co/static/js/main.3f4cb42d.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c84f4e.css",
-    "static/js/main.2cf16726.js"
+    "static/js/main.3f4cb42d.js"
   ]
 }
