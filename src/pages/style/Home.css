@@ -385,6 +385,7 @@ section .figure::before{
 @media screen and (max-width: 767px){
     .x{
         font-size: 50px !important;
+        letter-spacing: 1px !important;
     }
     section .figure{
         justify-content: start  !important;
@@ -393,6 +394,7 @@ section .figure::before{
     }
     section h1{
         font-size: 32px !important;
+        letter-spacing: 1px !important;
     }
     .grid-3{
         flex-direction: column;
@@ -408,7 +410,8 @@ section .figure::before{
         font-size: 16px !important;
     }
     .items{
-        height: 230vh !important;
+        justify-content: space-between !important;
+        height: 220vh !important;
     }
     .items .item{
         flex-direction: column;

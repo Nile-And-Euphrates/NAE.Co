@@ -8,7 +8,7 @@ export default function About(){
             <section class="grid-6 position-relative w-100" style={{ padding:"100px 40px"}}>
                 <article class="d-grid" style={{placeItems: "left"}} >
                     <h1 class="text-uppercase text-primary" style={{fontSize: "53px" , textAlign: "center"}}>من نحن :  </h1>
-                    <p class="text-uppercase p-3 fs-5 mt-1 mb-4" style={{textAlign: "start" , height:"100px" ,whiteSpace:"wrap"}}>في  النيل و الفرات ، نحن نفخر بتقديم حلول راقية للحمامات والسيراميك، مع التركيز على الجودة الفائقة  .</p>
+                    <p class="text-uppercase p-3 fs-5 mt-1 mb-4" style={{textAlign: "center" , height:"100px" ,whiteSpace:"wrap"}}>في  النيل و الفرات ، نحن نفخر بتقديم حلول راقية للحمامات والسيراميك، مع التركيز على الجودة الفائقة  .</p>
     
                     <div class="step    d-flex justify-content-center align-items-center border-bottom border-primary" style={{height: "150px" , padding: "0px 0px" ,fontSize: "23px"}}>
                         <p>مهمتنا

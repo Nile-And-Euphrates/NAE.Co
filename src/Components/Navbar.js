@@ -36,7 +36,7 @@ export default function Navbar(){
             </li>
             <li class="nav-item">
                 <Link to={"/contact"}  style={{ textDecoration: 'none' }}>
-                    <a class="nav-link fs-4" href="#">تواصل معنا</a>
+                    <a class="nav-link fs-4" style={{cursor:"pointer"}}>تواصل معنا</a>
                 </Link>
             </li>
             </ul>

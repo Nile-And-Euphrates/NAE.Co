@@ -12,7 +12,7 @@ export default function Home(){
         <>
         <Navbar/>
         <section class="container-xxl  position-relative" style={{height: "fit-content", padding:"50px 0px 0px 0px"}}>
-            <p class="x fw-bold m-2 text-wrap text-uppercase lh-1" style={{fontSize: "130px" , letterSpacing:"4px"}}>العناصر المفضلة لديك بسعر مذهل .</p>
+            <p class="x fw-bold m-2 text-wrap text-uppercase lh-1" style={{fontSize: "130px" , letterSpacing:"3px"}}>العناصر المفضلة لديك بسعر مذهل .</p>
         </section>
 
     {/* <div id="carouselExampleCaptions" class="carousel slide  container-xl">
@@ -61,7 +61,7 @@ export default function Home(){
 
             <section class="webflow o p-3 d-flex position-relative justify-content-center align-items-center" style={{flexDirection: "column", padding:"50px 0px"}}>
                 <img src="./imgs/dots.png" class="position-absolute" style={{left: "0%", top:"10%" , width:"150px"}} alt=""></img>
-                <h1 class="z-3 text-uppercase p-3 m-3 border-bottom border-black" style={{fontSize: "64px", letterSpacing:"3px"}}>خدماتنا </h1>
+                <h1 class="z-3 text-uppercase p-3 m-3 border-bottom border-black" style={{fontSize: "64px", letterSpacing:"2px"}}>خدماتنا </h1>
 
                 <div class="u d-flex justify-content-center align-items-center gap-2 " style={{flexWrap: "wrap"}}>
 
@@ -188,7 +188,7 @@ export default function Home(){
                 </div>
             </section>
 
-            <section class="items w-100 p-1 d-flex justify-content-center align-items-center" style={{height: "350vh", backgroundColor: "#222"  ,flexDirection:"column"}}>
+            <section class="items w-100 p-1 d-flex justify-content-center align-items-start" style={{height: "350vh", backgroundColor: "#222"  ,flexDirection:"column"}}>
 
                     <div class="item d-flex justify-content-evenly align-items-center p-5" style={{width: "100%" , height:"450px"}}> 
                         <div class="w-40 h-100">
@@ -196,7 +196,7 @@ export default function Home(){
                         </div>
                         <div class="caption w-50 text-light mt-4 mb-4">
                         <h1 class="card-title">أرضيات وجدران السيراميك </h1>
-                            <p class="card-text fs-6">الوصف: السيراميك هو الخيار الأمثل لأرضيات وجدران الحمام، حيث يجمع بين الجمال والمتانة. يُصنع من مواد مقاومة للماء والبقع،</p>
+                            <p class="card-text fs-6">الوصف: السيراميك هو الخيار الأمثل لأرضيات وجدران الحمام، حيث يجمع بين الجمال والمتانة. يُصنع من مواد مقاومة للماء .</p>
                             <p class="card-text fs-6">مما يجعله مثاليًا للبيئات الرطبة. تتنوع التصميمات بين الكلاسيكية والعصرية، مما يتيح لك إنشاء مظهر حمام فريد يناسب ذوقك.</p>
                         </div>
                     </div>

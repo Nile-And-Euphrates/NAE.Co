@@ -34,12 +34,11 @@ export default function Footer(){
                 <h1>تواصل معنا</h1>
                 <div className="SD">
                     <i class="fa-solid fa-phone" style={{padding: "5px" , marginRight:"10px"}}></i>
-                    <p>01013692442</p>
-                    <p>01141456342</p>
+                    <p style={{letterSpacing:"5px"}}>01141456342</p>
                 </div>
                 <div className="SD">
                     <i class="fa-solid fa-envelope"style={{padding: "5px" , marginRight: "10px"}}></i>
-                    <p>adminNile@gmail.com</p>
+                    <p>NileAndEuphrate@gmail.com</p>
                 </div>
             </div>
         </div>

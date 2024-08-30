@@ -16,7 +16,6 @@ export default function Home(){
                             </iframe>
                             <div class="info">
                                 <h4>اتصل بنا </h4>
-                                <span class="phone">0101-369-244-2</span>
                                 <span class="phone">0114-145-634-2</span>
                                 <h4>عنوان</h4>
                                 <address>  م 29 شارع محمد المقريفي - من حسن المأمون - مدينة نصر  <br></br> القاهرة  <br/> </address>
