@@ -8,11 +8,11 @@ export  default function Details(){
     const { id } = useParams();
     const[item ,setItem ]=useState({})
     useEffect(()=>{
-        const token = '0620d589690987cf46c668b6b66f3eb3b90bd3c3';
+        const token = 'a7855b87ede8e3c34112928a1384d2e1ce312806';
         fetch(`http://127.0.0.1:8000/restframework/generics/${id}`, {
             method: 'GET',
             headers: {
-            'Authorization': 'Bearer ' + token,
+            'Authorization': `Token ${token}`,
             'Content-Type': 'application/json'
             },
         })

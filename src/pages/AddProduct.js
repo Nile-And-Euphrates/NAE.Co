@@ -33,11 +33,11 @@ export default function Addproduct(){
             formData.append('discountAmount', parseInt(productAmount));
             formData.append('category', productCategory);
         
-            const token = '0620d589690987cf46c668b6b66f3eb3b90bd3c3';
+            const token = 'a7855b87ede8e3c34112928a1384d2e1ce312806';
             fetch(`http://127.0.0.1:8000/restframework/generics/`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer ' + token,
+                    'Authorization': `Token ${token}`,
                     // لا حاجة لإضافة Content-Type هنا، سيقوم المتصفح بتحديده بشكل تلقائي
                 },
                 body: formData  // إرسال FormData بدلاً من JSON
