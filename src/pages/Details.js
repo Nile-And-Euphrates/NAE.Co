@@ -24,7 +24,7 @@ export  default function Details(){
         })
         .then(data =>{
             const dataContainer = document.querySelector('article').style.display="flex";
-            const skeletonCard = document.querySelector('.skeleton-card').style.display="none";
+            const skeletonCard = document.querySelector('.skeleton-card').style.display="none !important";
             setItem(data)
         }
         )
@@ -54,7 +54,7 @@ export  default function Details(){
                 </Link>
             </div>
         </article>
-        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"100%",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column" , display:"flex"}}>
+        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"100%",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column" , display:"flex !important"}}>
             <div class="skeleton-header w-100" style={{height:"300px"}}></div>
             <div class="skeleton-body w-100" style={{height:"100px"}}></div>
             <div class="skeleton-footer w-75" style={{height:"40px"}}></div>
