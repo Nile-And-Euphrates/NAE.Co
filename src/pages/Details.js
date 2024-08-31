@@ -23,8 +23,8 @@ export  default function Details(){
             return response.json();
         })
         .then(data =>{
-            const dataContainer = document.querySelector('.grid-view').style.display="flex";
-            const skeletonCard = document.querySelector('.skeleton-loading').style.display="none";
+            const dataContainer = document.querySelector('article').style.display="flex";
+            const skeletonCard = document.querySelector('.skeleton-card').style.display="none";
             setItem(data)
         }
         )
@@ -32,7 +32,7 @@ export  default function Details(){
     },[])
     return(
     <main>
-        <article>
+        <article style={{display:"none"}}>
             <figure>
                 <img src={item.image}></img>
             </figure>
@@ -54,9 +54,9 @@ export  default function Details(){
                 </Link>
             </div>
         </article>
-        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"460px",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column"}}>
-            <div class="skeleton-header w-100" style={{height:"200px"}}></div>
-            <div class="skeleton-body w-100" style={{height:"70px"}}></div>
+        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"800px",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column"}}>
+            <div class="skeleton-header w-100" style={{height:"300px"}}></div>
+            <div class="skeleton-body w-100" style={{height:"100px"}}></div>
             <div class="skeleton-footer w-75" style={{height:"40px"}}></div>
         </div>
     </main>
