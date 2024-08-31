@@ -54,7 +54,7 @@ export  default function Details(){
                 </Link>
             </div>
         </article>
-        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"800px",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column"}}>
+        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"100%",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column" , display:"flex"}}>
             <div class="skeleton-header w-100" style={{height:"300px"}}></div>
             <div class="skeleton-body w-100" style={{height:"100px"}}></div>
             <div class="skeleton-footer w-75" style={{height:"40px"}}></div>
