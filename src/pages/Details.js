@@ -22,7 +22,11 @@ export  default function Details(){
         }
             return response.json();
         })
-        .then(data =>{ setItem(data)}
+        .then(data =>{
+            const dataContainer = document.querySelector('.grid-view').style.display="flex";
+            const skeletonCard = document.querySelector('.skeleton-loading').style.display="none";
+            setItem(data)
+        }
         )
         .catch(error => console.error('There was a problem with the fetch operation:', error));
     },[])
@@ -50,6 +54,11 @@ export  default function Details(){
                 </Link>
             </div>
         </article>
+        <div class="skeleton-card d-flex align-items-center justify-content-center " style={{backgroundColor:"#f0f0f0",width:"460px",padding:"16px",margin:"20px" , borderRadius:"8px" , flexDirection:"column"}}>
+            <div class="skeleton-header w-100" style={{height:"200px"}}></div>
+            <div class="skeleton-body w-100" style={{height:"70px"}}></div>
+            <div class="skeleton-footer w-75" style={{height:"40px"}}></div>
+        </div>
     </main>
     )
 }
