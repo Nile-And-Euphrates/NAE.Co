@@ -9,7 +9,7 @@ export  default function Details(){
     const[item ,setItem ]=useState({})
     useEffect(()=>{
         const token = 'a7855b87ede8e3c34112928a1384d2e1ce312806';
-        fetch(`http://127.0.0.1:8000/restframework/generics/${id}`, {
+        fetch(`https://muhammed1muslim.pythonanywhere.com/restframework/generics/${id}`, {
             method: 'GET',
             headers: {
             'Authorization': `Token ${token}`,
