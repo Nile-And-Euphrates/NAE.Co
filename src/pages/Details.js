@@ -40,16 +40,16 @@ export  default function Details(){
                 {
                     item.discount=== true && item.discountAmount !== 0?<div class="discount">الخصم :{item.discountAmount}%</div> : <div style={{display:"none"}} class="discount">discount: {item.discountAmount}%</div>
                 }
-                <h1>اسم المنتج :{item.name}</h1>
-                <p> التفاصيل :{item.description}</p>
-                <p>الفئة :{item.category} </p>
+                <h1>اسم المنتج : {item.name}</h1>
+                <p> التفاصيل : {item.description}</p>
+                <p>الفئة : {item.category} </p>
                 {
                     item.discount === true && item.discountAmount !== 0?
-                    <p>السعر :{item.price-(item.price * item.discountAmount / 100)} ج.م<span className='oldPrice'>السعر :{item.price} ج.م </span></p>
+                    <p>السعر : {item.price-(item.price * item.discountAmount / 100)} ج.م<span className='oldPrice'>السعر :{item.price} ج.م </span></p>
                     :
-                    <p>{item.price}</p>
+                    <p>السعر : {item.price}</p>
                 }
-                <Link to={`/Works`}>
+                <Link to={`/Works`} style={{textDecoration:"none"}}>
                     <button><a href="./work.html">العودة الي المتجر</a></button>
                 </Link>
             </div>
