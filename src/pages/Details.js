@@ -47,7 +47,7 @@ export  default function Details(){
                     item.discount === true && item.discountAmount !== 0?
                     <p>السعر : {item.price-(item.price * item.discountAmount / 100)} ج.م<span className='oldPrice'>السعر :{item.price} ج.م </span></p>
                     :
-                    <p>السعر : {item.price}</p>
+                    <p>السعر : {item.price}ج.م</p>
                 }
                 <Link to={`/Works`} style={{textDecoration:"none"}}>
                     <button><a href="./work.html" style={{textDecoration:"none"}}>العودة الي المتجر</a></button>
