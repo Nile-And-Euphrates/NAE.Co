@@ -31,14 +31,14 @@ export  default function Details(){
         .catch(error => console.error('There was a problem with the fetch operation:', error));
     },[])
     return(
-    <main>
-        <article style={{display:"none"}}>
+    <main style={{height:"100vh"}}>
+        <article style={{display:"none" }}>
             <figure>
                 <img src={item.image}></img>
             </figure>
             <div class="details">
                 {
-                    item.discount=== true && item.discountAmount !== 0?<div class="discount">الخصم :{item.discountAmount}%</div> : <div style={{display:"none"}} class="discount">discount: {item.discountAmount}%</div>
+                    item.discount=== true && item.discountAmount !== 0?<div class="discount">الخصم : {item.discountAmount}%</div> : <div style={{display:"none"}} class="discount">discount: {item.discountAmount}%</div>
                 }
                 <h1>اسم المنتج : {item.name}</h1>
                 <p> التفاصيل : {item.description}</p>
@@ -50,7 +50,7 @@ export  default function Details(){
                     <p>السعر : {item.price}</p>
                 }
                 <Link to={`/Works`} style={{textDecoration:"none"}}>
-                    <button><a href="./work.html">العودة الي المتجر</a></button>
+                    <button><a href="./work.html" style={{textDecoration:"none"}}>العودة الي المتجر</a></button>
                 </Link>
             </div>
         </article>
