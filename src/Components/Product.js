@@ -9,7 +9,7 @@ export default function Product({id , name ,price,image , category,discountAmoun
                 :
                 <div></div>
             }
-        <img src={image} class="card-img-top" style={{width:"319px", height:"230px"}} alt="..."></img>
+        <img src={image} class="card-img-top" style={{width:"319px", height:"230px" , objectFit:"cover"}} alt="..."></img>
         <div class="card-body">
             <div className="d-flex justify-content-between">
                 <h5>{name}</h5>
@@ -21,7 +21,7 @@ export default function Product({id , name ,price,image , category,discountAmoun
                 }
                 
             </div>
-            <p class="card-text">{description.slice(0,20)}...</p>
+            <p class="card-text">{description.slice(0,27)}...</p>
             <Link to={`/Product/${id}`}>
                 <a href="#" class="btn btn-primary">عرض منتج</a>
             </Link>
